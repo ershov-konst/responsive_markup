@@ -31,7 +31,7 @@ body, html{
    text-decoration: none;
 }
 .menu__element__link:hover{
-   background: #6a5d7b;
+   background: #6A906B;
 }
 .img_container{
    width: 29%;
@@ -42,4 +42,7 @@ body, html{
 .img_container__img{
    width: 100%;
    box-shadow: 4px 4px 11px #333;
+}
+.header__wrapper{
+
 }
