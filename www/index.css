@@ -1,0 +1,45 @@
+body, html{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   color: #5d4a66;
+   min-height: 100%;
+   background: #6A5D7B;
+}
+.header{
+   background: #749C75;
+   padding-left: 2%;
+}
+.company{
+   font-family: 'Gochi Hand', cursive;
+   font-size: 40px;
+   color: #E9D985;
+   text-shadow: 1px 1px 1px #333;
+}
+.menu{
+   display: inline-block;
+   margin: 0;
+}
+.menu__element{
+   display: inline-block;
+}
+.menu__element__link{
+   color: #e9d985;
+   line-height: 50px;
+   display: block;
+   padding: 0 30px;
+   text-decoration: none;
+}
+.menu__element__link:hover{
+   background: #6a5d7b;
+}
+.img_container{
+   width: 29%;
+   padding: 2%;
+   float: left;
+
+}
+.img_container__img{
+   width: 100%;
+   box-shadow: 4px 4px 11px #333;
+}
