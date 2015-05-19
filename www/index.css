@@ -46,3 +46,8 @@ body, html{
 .header__wrapper{
 
 }
+.size__limiter{
+   margin: 0 auto;
+   min-width: 1024px;
+   max-width: 1280px;
+}
