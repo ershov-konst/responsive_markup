@@ -8,13 +8,14 @@ body, html{
 }
 .header{
    background: #749C75;
-   padding-left: 2%;
+   position: relative;
 }
 .company{
    font-family: 'Gochi Hand', cursive;
    font-size: 40px;
    color: #E9D985;
    text-shadow: 1px 1px 1px #333;
+   padding-left: 2%;
 }
 .menu{
    display: inline-block;
@@ -33,6 +34,30 @@ body, html{
 .menu__element__link:hover{
    background: #6A906B;
 }
+
+.menu__toggle{
+   width: 32px;
+   height: 32px;
+   display: none;
+   position: absolute;
+   right: 2%;
+   top: 8px;
+   cursor: pointer;
+}
+.menu__toggle__line{
+   height: 3px;
+   background: rgb(233, 217, 133);
+   margin-top: 6px;
+   border-radius: 2px;
+}
+.menu__toggle__checkbox{
+   display: none;
+}
+
+
+
+
+
 .img_container{
    width: 29%;
    padding: 2%;
@@ -48,6 +73,33 @@ body, html{
 }
 .size__limiter{
    margin: 0 auto;
-   min-width: 1024px;
    max-width: 1280px;
+}
+
+
+@media all and (max-width: 800px) {
+   .img_container{
+      width: 46%;
+   }
+}
+@media all and (max-width: 600px) {
+   .img_container{
+      width: 96%;
+   }
+}
+@media all and (max-width: 640px) {
+
+   .menu{
+      padding: 0;
+      display: none;
+   }
+   .menu__element{
+      display: block;
+   }
+   .menu__toggle{
+      display: block;
+   }
+   .menu__toggle__checkbox:checked + *{
+      display: block;
+   }
 }

@@ -2,6 +2,7 @@
 <html>
 <head lang="en">
    <meta charset="UTF-8">
+   <meta name=viewport content="width=device-width, initial-scale=1"/>
    <title>responsive markup</title>
    <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" href="/index.css"/>
@@ -10,6 +11,12 @@
    <div class="header">
       <div class="header__wrapper size__limiter">
          <span class="company">Responsive</span>
+         <label for="m_t" class="menu__toggle">
+            <div class="menu__toggle__line"></div>
+            <div class="menu__toggle__line"></div>
+            <div class="menu__toggle__line"></div>
+         </label>
+         <input id="m_t" type="checkbox" class="menu__toggle__checkbox"/>
          <ul class="menu">
             <li class="menu__element"><a href="#" class="menu__element__link">Кнопка 1</a></li>
             <li class="menu__element"><a href="#" class="menu__element__link">Кнопка 2</a></li>
